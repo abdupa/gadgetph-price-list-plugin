@@ -1,0 +1,16 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you use blocks/react)
+node_modules/
+dist/
+build/
+
+# PHP Vendor (if you use composer and don't want to commit dependencies)
+vendor/
+
+# Logs
+*.log
+error_log
+debug.log

@@ -1,0 +1,46 @@
+/* Custom styles for the Smartphone Price List */
+.rank-count {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #4f46e5; /* Indigo-600 */
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.spec-list li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #f3f4f6; /* gray-100 */
+}
+
+.spec-list li:last-child {
+    border-bottom: none;
+}
+
+.horizontal-scroll {
+    -webkit-overflow-scrolling: touch;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+/*
+ * Custom rule to remove the top border from the first item
+ * in each of our price segment lists. This is a more robust
+ * fix than relying on the CDN's incomplete Tailwind file.
+*/
+#budget-contenders li:first-child,
+#mid-range-contenders li:first-child,
+#premium-contenders li:first-child,
+#flagship-contenders li:first-child {
+    border-top-width: 0px !important;
+}
