@@ -1,0 +1,7 @@
+A fatal error was caught while processing Product ID: 43578
+
+Error Message: Call to undefined method WC_Product_Simple::get_external_url()
+File with Error: /home/u660838556/domains/gadgetph.com/public_html/wp-content/plugins/smartphone-price-list/includes/data-mapper.php
+Line Number: 23
+
+--------------------------------------------------

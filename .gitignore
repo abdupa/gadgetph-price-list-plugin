@@ -1,16 +1,11 @@
-# OS generated files
-.DS_Store
-Thumbs.db
+# Ignore the tmp folder anywhere
+tmp/
 
-# Node modules (if you use blocks/react)
-node_modules/
-dist/
-build/
-
-# PHP Vendor (if you use composer and don't want to commit dependencies)
-vendor/
-
-# Logs
-*.log
-error_log
+# Ignore any file with "copy" in the name (case insensitive usually works via patterns)
+*copy*
+*Copy*
+*copy *.php
+# Log files
+spl-error-report.log
+spl-fatal-error.log
 debug.log
