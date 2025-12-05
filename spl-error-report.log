@@ -1,6 +1,0 @@
-FATAL ERROR FOUND IN PRODUCT ID: 43305 (Xiaomi Pad Mini)
-Error Message: Call to undefined method WC_Product_External::get_external_url()
-File: /home/u660838556/domains/gadgetph.com/public_html/wp-content/plugins/smartphone-price-list/includes/data-mapper.php
-Line: 27
---------------------------------------------------
-
